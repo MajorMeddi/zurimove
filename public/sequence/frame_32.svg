@@ -1,9 +1,0 @@
-<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1920" height="1080" fill="#dfcba6"/>
-  <g transform="translate(1158.9043790736546, 540) rotate(96)">
-    <rect x="-90" y="-90" width="180" height="180" fill="#36382e" opacity="0.8" />
-    <circle r="45" fill="#f06449" />
-  </g>
-  <text x="50" y="100" font-family="Arial" font-size="40" fill="#36382e">Frame 32</text>
-  <text x="50" y="150" font-family="Arial" font-size="24" fill="#36382e">Placeholder Animation</text>
-</svg>

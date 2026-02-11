@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 
 const FRAME_COUNT = 120;
 const IMAGE_PATH_PREFIX = "/sequence/frame_";
-const IMAGE_EXTENSION = ".svg";
+const IMAGE_EXTENSION = ".jpg";
 
 // Beat configuration
 const BEATS = [
