@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 
 const FRAME_COUNT = 120;
 const IMAGE_PATH_PREFIX = "/sequence/frame_";
-const IMAGE_EXTENSION = ".jpg";
+const IMAGE_EXTENSION = ".svg";
 
 // Beat configuration
 const BEATS = [
@@ -182,8 +182,8 @@ export default function MovingSequence() {
 function BeatOverlay({ beat, progress }: { beat: any; progress: any }) {
     const opacity = useTransform(
         progress,
-        [beat.start, beat.start + 0.05, beat.end - 0.05, beat.end],
-        [0, 1, 1, 0]
+        [Math.max(0, beat.start - 0.05), beat.start + 0.05, beat.end - 0.05, beat.end],
+        [beat.start === 0 ? 1 : 0, 1, 1, 0]
     );
 
     const y = useTransform(
